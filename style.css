@@ -1,0 +1,434 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: black;
+}
+.navigationbar{
+    width: 100%;
+    position: sticky;
+    top: -1;
+    z-index: 100;
+    height: 50px;
+    flex-wrap: wrap;
+    height: 54px;
+  
+}
+.second-navbar{
+   display: flex;
+   padding: 8px 9px;
+   
+   justify-content: space-between;
+   flex-direction: row;
+}
+.left-nav-bar{
+   border: 1px solid black;
+   display: flex; 
+   justify-content: space-between;
+   gap: 12px;
+    
+}
+.left-nav-bar i{
+   padding: 8px;
+    text-align: center;
+    align-items: center;
+}
+.left-nav-bar i:hover{
+    background: rgb(85, 84, 84);
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.youtube-name{
+    display: flex;
+  
+}
+.logo{
+    width: 96px;
+    background: transparent;
+    
+    
+}
+.middle-navbar{
+    border: 1px solid rgb(106, 104, 104);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0.4;
+    border-radius: 16px;
+    
+}
+.middle-navbar input{
+    padding: 4px;
+    flex: 1;
+   background: transparent;
+   border: none;
+   outline: none;
+   color: white;
+}
+.middle-navbar i{
+    padding: 12px;
+    color: rgb(184, 181, 181);
+   
+}
+.middle-navbar button{
+    border-right: none;
+    border-top: none;
+    border-radius: 6px;
+    border-bottom: none;
+    border-left: none;
+    background:hsl(0, 0%, 18.82%);
+}
+#microphone:hover{
+    background: rgb(85, 84, 84);
+    border-radius: 90%;
+
+}
+::placeholder{
+    padding: 3px;
+}
+.last-navbar{
+    color: white;
+   flex: 0.2;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.item1 i{
+    padding: 5px;
+    font-size:20px;
+    
+}
+.item3{
+   
+    margin-right: 15px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+}
+.item3 img{
+   max-width: 100%;
+   max-height: 100%;
+    object-fit:fill;
+    border-radius: 50%;
+}
+#madrid{
+    font-size: 13px;
+}
+
+.main-content-div{
+ 
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    
+}
+.left-containner{
+    display: block;
+    padding:6px;
+    flex-basis: 15%;
+    position: sticky;
+   
+   
+}
+.frst-section{
+    border: 1px solid rgb(128, 126, 126);
+    padding: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.home-div{
+    display: flex;
+  
+    justify-content: flex-start;
+    padding: 4px;
+    border-radius: 9px;
+    margin-bottom: 6px;
+ 
+    margin-bottom: 7px;
+}
+.home-icon-div{
+    display: flex;
+   
+    
+}
+
+
+.home-icon-div i{
+    color: white;
+    font-size: 19px;
+    margin: 4px;
+}
+.home-div span{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: bold;
+    color: white;
+   margin-left: 9px;
+   text-align: center;
+}
+.home-icon-div img{
+    max-width: 40px;
+    max-height: 30px;
+}
+
+.second-last-div{
+    display: flex;
+    margin-top: 1rem;
+    padding: 8px;
+}
+
+.second-home-div{
+    display: flex;
+    border: 1px solid white;
+    justify-content: flex-start;
+    padding: 4px;
+    border-radius: 9px;
+    margin-bottom: 6px;
+   
+    margin-bottom: 5px;
+
+}
+.home-icon{
+    color: white;
+    font-size: 19px;
+    margin: 4px;
+}
+
+#subscription{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.home-div:hover{
+    background: #636161;
+}
+#icon-div-elemnt{
+    background: #636161;
+}
+
+.middle-containner{
+  
+   flex-basis: 100%;
+ 
+  
+}
+.flex-box-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+.flex-item{
+    display: flex;
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background: #302d2d;
+}
+.flex-item span{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#all{
+    padding-right: 12px;
+    text-align: center;
+    align-items: center;
+    background: white;
+    color: black;
+}
+
+.video-section-div{
+    display: grid;
+    padding: 12px 8px;
+  margin-left: 2rem;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 12px;
+    row-gap: 19px;
+}
+#skysports{
+    font-size: 12px;
+}
+
+.video-1{
+    border: 1px solid white;border-radius: 8px;
+}
+
+.video-thumbnail-section{
+   
+    border-radius: 8px;
+   
+}
+
+.video-thumbnail-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 8px;
+}
+.logo-videoname-section{
+    display: flex;
+   
+    padding: 1px;
+}
+.logo1-section{
+   
+   
+    
+}
+.logo1-section img{
+    width: 70%;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 7px;
+}
+.video-title{
+   
+    display: flex;
+}
+.video-title span{
+    color: white;
+    font-weight: 700;
+}
+.channel-name-section{
+    display: flex;
+    margin-bottom: 4px;
+}
+.channel-name-section span{
+    color: white;
+    opacity: 0.6;
+    font-size: 12px;
+}
+.views-count-section{
+    display: flex;
+}
+
+.views-count-section span{
+    color: white;
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+@media(500px <= width <=900px){
+    .navigationbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+       max-width: 55px;
+    }
+   .youtube-name small{
+    font-size: 12px;
+   }
+   .last-navbar{
+    display: none;
+   }
+   .second-navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   .left-nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   html{
+    font-size: 60%;
+   }
+   .video-section-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+   .logo{
+    width: 100%;
+    height: 30%;
+   }
+   .logo small{
+    font-size: 12px;
+   }
+   .middle-navbar{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    height: 30px;
+   
+   }
+   .middle-navbar i{
+    display: none;
+   }
+   
+}
+
+@media(200px <= width <=500px){
+    .video-section-div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .navigationbar{
+        align-items: center;
+        text-align: center;
+    }
+    .second-navbar{
+        display: flex;
+        align-items: center;
+    }
+    .left-containner{
+        display: none;
+    }
+    .main-content-div{
+        flex-basis: 100%;
+    }
+    .flex-box-items{
+        display: flex;
+       
+    }
+    .flex-item span{
+        font-size: 6px;
+    }
+    .logo{
+        width: 50%;
+    }
+    .last-navbar i{
+        display: none;
+    }
+    .middle-navbar i{
+        display: none;
+    }
+    .middle-navbar{
+        width: 150px;
+        height: 25px;
+    }
+    .youtube-name small{
+        font-size: 10px;
+    }
+    .item3 img{
+        width: 15px;
+        right: 0;
+        margin-right: 0;
+    }
+    .item3 {
+        display: flex;
+        align-items: end;
+       
+        margin-right: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
